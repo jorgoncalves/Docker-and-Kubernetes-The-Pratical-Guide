@@ -1,0 +1,13 @@
+docker run \
+    -it \
+    -v "C:\Learning\Docker and Kubernetes The Pratical Guide\Section 7 - Working with Utility Containers and Executing Commands In Containers\docker-complete:/app" \
+    node-util \
+    npm init \
+
+
+
+docker run -it -v "C:\Learning\Docker and Kubernetes The Pratical Guide\Section 7 - Working with Utility Containers and Executing Commands In Containers\docker-complete:/app" mynpm init
+
+docker container prune
+
+docker compose run --rm npm init
